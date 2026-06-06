@@ -1,0 +1,72 @@
+{
+  "title": "現実データ（未整備）",
+  "description": "表記ゆれ・重複・古い版の混在・メタデータ欠損がある状態",
+  "documents": [
+    {
+      "id": "real001",
+      "title": "外観検査のやり方",
+      "content": "外観検査は目で見て傷がないか確認します。大きい傷は不良です。検査は適宜実施してください。",
+      "metadata": {"department": null, "doc_type": null, "version": null, "updated": null, "confidential": null, "product_code": null}
+    },
+    {
+      "id": "real002",
+      "title": "品質検査手順書 - 外観検査",
+      "content": "外観検査は製品の表面を目視で確認する工程です。検査基準は傷の長さが1mm以上を不良とします。検査頻度はロットあたり5個です。",
+      "metadata": {"department": "品管", "doc_type": "手順書", "version": "2.0", "updated": "2024-08-01", "confidential": "社外秘", "product_code": "ABC-1234"}
+    },
+    {
+      "id": "real003",
+      "title": "品質検査手順書（外観）最新版",
+      "content": "外観検査は製品の表面を目視および拡大鏡で確認する工程です。検査基準として、傷の長さが0.5mm以上、深さが0.1mm以上のものを不良とします。検査頻度はロットあたり10個のサンプリング検査を実施します。不良率が3%を超えた場合は全数検査に切り替えます。",
+      "metadata": {"department": "品質管理課", "doc_type": "手順書", "version": "3.2", "updated": "2026-04-01", "confidential": "社外秘", "product_code": "ABC1234"}
+    },
+    {
+      "id": "real004",
+      "title": "プレス機の点検について",
+      "content": "プレス機は毎日チェックしてください。油圧とか異音とか見てください。オイル交換は定期的に。詳しくは田中さんに聞いて。",
+      "metadata": {"department": "製造", "doc_type": null, "version": null, "updated": "2023-06-01", "confidential": null, "product_code": "プレス"}
+    },
+    {
+      "id": "real005",
+      "title": "設備保全マニュアル-PRS500",
+      "content": "プレス機PRS-500の日常点検として、始業時に油圧ゲージの確認（正常値: 15-20MPa）、スライド動作の異音確認、安全装置の動作テストを行います。月次点検では油圧オイルの交換（推奨: ISO VG68）、フィルター清掃、ボルト増し締めを実施します。",
+      "metadata": {"department": "製造1課", "doc_type": "マニュアル", "version": "2.1", "updated": "2026-03-15", "confidential": "社内限定", "product_code": "PRS-500"}
+    },
+    {
+      "id": "real006",
+      "title": "CNCのエラーが出たとき",
+      "content": "CNC旋盤でE-07が出たら止めて。切粉が絡まってるかも。温度高かったら冷ましてから再起動。直らなかったら保全の佐藤さんに連絡（内線5678）。",
+      "metadata": {"department": null, "doc_type": null, "version": null, "updated": null, "confidential": null, "product_code": null}
+    },
+    {
+      "id": "real007",
+      "title": "VPN接続手順",
+      "content": "VPNはFortiClientを使います。アドレスはvpn.example.co.jpです。証明書がいるので情シスに聞いてください。繋がらない時はネットを確認。",
+      "metadata": {"department": "情シス", "doc_type": "FAQ", "version": null, "updated": "2025-01-20", "confidential": null, "product_code": null}
+    },
+    {
+      "id": "real008",
+      "title": "パスワード忘れたら",
+      "content": "パスワード忘れたらログイン画面からリセットできます。メール届かなかったら情シスに電話して。内線は…えーと、2345だったかな。",
+      "metadata": {"department": null, "doc_type": null, "version": null, "updated": null, "confidential": null, "product_code": null}
+    },
+    {
+      "id": "real009",
+      "title": "有機溶剤の取り扱い（旧版）",
+      "content": "有機溶剤を使う時は換気してください。マスクは推奨です。",
+      "metadata": {"department": "総務", "doc_type": "規程", "version": "2.0", "updated": "2022-04-01", "confidential": null, "product_code": null}
+    },
+    {
+      "id": "real010",
+      "title": "安全衛生規程 - 化学物質",
+      "content": "有機溶剤を使用する作業では、必ず局所排気装置を稼働させてください。保護具として防毒マスク（有機ガス用）、保護手袋（ニトリル製）、保護メガネの着用が義務です。SDSは各作業場のファイルに保管されています。緊急時は安全衛生委員会（内線: 1111）に連絡してください。",
+      "metadata": {"department": "総務課", "doc_type": "規程", "version": "4.0", "updated": "2026-01-15", "confidential": "社内限定", "product_code": null}
+    },
+    {
+      "id": "real011",
+      "title": "発注の仕方",
+      "content": "発注はシステムから。金額によって承認者が違います。急ぎの場合は購買の鈴木さんに直接言って。",
+      "metadata": {"department": null, "doc_type": null, "version": null, "updated": null, "confidential": null, "product_code": null}
+    }
+  ]
+}
