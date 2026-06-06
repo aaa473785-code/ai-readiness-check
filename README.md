@@ -6,12 +6,14 @@ DX推進担当・情シス向けのPoCツール2本セット。
 
 ```
 ai-readiness-check/
-├── ai_readiness_check.py    # セルフチェックツール
-├── check_questions.json     # チェック項目データ（外出し）
-├── rag_demo.py              # RAG技術デモツール
-├── demo_data_ideal.json     # 理想データ（整備済み）
-├── demo_data_real.json      # 現実データ（未整備）
-├── requirements.txt         # パッケージ一覧
+├── app.py                    # トップページ
+├── pages/
+│   ├── 1_セルフチェック.py    # AI活用度セルフチェック
+│   └── 2_RAGデモ.py          # RAG技術デモ
+├── check_questions.json       # チェック項目データ（外出し）
+├── demo_data_ideal.json       # 理想データ（整備済み）
+├── demo_data_real.json        # 現実データ（未整備）
+├── requirements.txt           # パッケージ一覧
 └── README.md
 ```
 
@@ -33,11 +35,7 @@ pip install -r requirements.txt
 ## 起動
 
 ```powershell
-# セルフチェック
-streamlit run ai_readiness_check.py
-
-# RAGデモ
-streamlit run rag_demo.py
+streamlit run app.py
 ```
 
 ## セルフチェックツール
