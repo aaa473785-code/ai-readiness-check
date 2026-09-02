@@ -137,7 +137,7 @@ def main():
     with st.sidebar:
         st.header("⚙️ 設定")
         model_choice = st.radio("分析モデル", ["AIなし","Haiku（低コスト）","Sonnet（高精度）"], index=0)
-        model_map = {"AIなし":None, "Haiku（低コスト）":"claude-haiku-4-5-20251001", "Sonnet（高精度）":"claude-sonnet-4-6"}
+        model_map = {"AIなし":None, "Haiku（低コスト）":"claude-haiku-4-5", "Sonnet（高精度）":"claude-sonnet-5"}
         model_id = model_map[model_choice]
 
         api_key = ""
